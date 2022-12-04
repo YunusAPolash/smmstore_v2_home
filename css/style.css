@@ -5795,7 +5795,8 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 	position: relative;
 	/* display: flex; */
 }
-#hero .banner_btn_wrap .btn_home{
+#hero .banner_btn_wrap .btn_home,
+.btn_home{
 	display: inline-block;
 	font-size: 18px;
 	font-weight: 500;
@@ -5812,7 +5813,9 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 	top: -80px;
 	left: 220px;
 }
-#hero .banner_btn_wrap .btn_home:hover{
+#hero .banner_btn_wrap .btn_home:hover,
+.btn_home:hover{
+	color: #fff;
 	background:#e75101;
 }
 #hero .hero_img {
@@ -5885,6 +5888,8 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 
 
 /* SMM STORE COM */
+#testimonials,
+#socialMedia,
 #whyChooseUs,
 #socialMediaMarketing,
 #smm_store_com{
@@ -5897,6 +5902,8 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#testimonials h2,
+#socialMedia h2,
 #whyChooseUs h2,
 #socialMediaMarketing h2,
 #smm_store_com h2{
@@ -5905,6 +5912,8 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 	color: #333333;
 	margin-bottom: 20px;
 }
+#testimonials p,
+#socialMedia p,
 #whyChooseUs p,
 #socialMediaMarketing p,
 #smm_store_com p{
@@ -5994,4 +6003,244 @@ body.dark.nightmode .neworder .d-card-head .dch-body span{
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 10px;
+}
+
+/* SOCIAL MEDIA SECTION */
+
+.nav_tabs_social .nav{
+	gap: 15px;
+}
+
+.nav_tabs_social .nav-link{
+	background: #FE745730;
+	color: #FE7457;
+	border: none;
+	outline: 0!important;
+}
+
+.nav_tabs_social .nav-link.active{
+	background: #FE7457;
+	color: #fff;
+	border: none;
+}
+
+.nav_tabs_social .nav-link.active:focus{
+	border: none;
+}
+.content_social_media{
+	padding: 100px 0px;
+}
+.content_social_media h3{
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+.content_social_media .social_media_verify{
+	padding: 10px;
+}
+.content_social_media .social_media_verify i{
+	color: var(--orange-brand);
+}
+.content_social_media .social_media_verify h3{
+	font-size: 18px;
+	margin: 0;
+	font-weight: 700;
+	padding: 10px 15px;
+	background: #fff;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px #ddd;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	transition: 0.5s ease-in-out;
+}
+
+.content_social_media .social_media_verify h3:hover{
+	border-color: var(--orange-brand);
+}
+
+/* How to Start */
+#how_to_start{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#how_to_start .how_to_start_item .card{
+	background: #fff;
+	box-shadow: 0 5px 10px #ddd;
+	border-radius: 15px!important;
+	min-height: 450px;
+	border: 1px solid #ddd;
+	transition: 0.5;
+}
+#how_to_start .how_to_start_item .card:hover{
+	border-color: var(--orange-brand);
+}
+#how_to_start .how_to_start_item .card .num_item{
+	font-size: 50px;
+	font-weight: 800;
+	color: #6F6F7070;
+	transition: 0.5s ;
+}
+#how_to_start .how_to_start_item .card:hover .num_item{
+	color: var(--orange-brand);
+}
+#how_to_start .how_to_start_item .card h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #333333;
+}
+
+#how_to_start .how_to_start_item .card p{
+	font-size: 16px;
+	color: #A1A0A0;
+}
+
+
+/* TESTIMONIALS */
+#testimonials{
+	background: #FFF4F2;
+}
+
+#testimonials .testimoni_item{
+	width: 95%;
+	padding: 30px 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+#testimonials_wrap{
+	padding: 50px 0;
+}
+#testimonials .testimoni_item .testimoni_user{
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	margin-bottom: 15px;
+}
+
+#testimonials .testimoni_item .testimoni_user .user_av img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+}
+
+#testimonials .testimoni_item .testimoni_user .user_info h4{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+#testimonials .testimoni_item .testimoni_user .user_info p{
+	font-size: 14px;
+	margin: 0px;
+}
+
+#testimonials .testimoni_item .testimoni_content h5{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.slick-dots li button:before{
+	font-size: 14px;
+	color: var(--orange-brand);
+}
+
+.slick-dots .slick-active button::before{
+	font-size: 20px;
+	color: var(--orange-brand)!important;
+}
+
+/* REG CHECK */
+#regCheck{
+	padding: 150px 0px;
+}
+
+#regCheck .reg_check{
+	padding: 70px 50px;
+	background: var(--orange-brand);
+	border-radius: 15px;
+}
+
+#regCheck .reg_check h2{
+	font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#regCheck .reg_check p{
+	font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+
+#regCheck .reg_check .btn_home{
+	background: #fff;
+	color: var(--orange-brand);
+}
+
+/* FAQ Sections */
+#faq{
+	background: #FFF4F2;
+	padding: 100px 0px;
+}
+
+#faq h2{
+	font-size: 35px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+#faq p{
+	font-size: 16px;
+    font-weight: normal;
+    color: #A1A0A0;
+}
+#faq_accordion .card{
+	background: #fff;
+	border-radius: 10px!important;
+	box-shadow: 0 5px 10px #eaeaea;
+}
+#faq_accordion .card .card-body{
+	padding: 0px;
+}
+#faq_accordion button{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 15px 25px;
+	justify-content: space-between;
+}
+#faq_accordion button{
+	text-decoration: none;
+}
+#faq_accordion button h3{
+	text-align: left;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#faq_accordion p{
+	font-size: 16px;
+}
+
+#faq_accordion button .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+	background: var(--orange-brand);
+	color: #fff;
+}
+
+#faq_accordion .btn-link .icon .fa-plus{
+	display: none;
+}
+#faq_accordion .btn-link.collapsed .icon .fa-plus{
+	display: block;
+}
+#faq_accordion .btn-link.collapsed .icon .fa-minus{
+	display: none;
 }
